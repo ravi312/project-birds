@@ -241,7 +241,7 @@ h1{
 
 h2{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius:25px;
     padding:10px; 
     
@@ -341,6 +341,17 @@ a:hover {
  .b20{
     order:11;
  }
+ 
+ .prompt{
+    text-align: center;
+    font-size:25px;
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 0, 0, .4);
+    border-radius:25px;
+    padding:10px;
+     order:21;
+ }
+
  
  .ctap{
      color:#52e875;
