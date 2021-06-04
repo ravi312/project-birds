@@ -11,6 +11,8 @@
     min-height: 100vh;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .birdlist{
@@ -30,9 +32,6 @@
     row-gap: 10px;
     column-gap: 20px;
     position: relative;
-   
-
-    
 
 }
 
@@ -229,6 +228,7 @@ img:hover {
     font-size: large;
     row-gap: 10px;
     column-gap: 10px;
+
 }
 
 h1{
@@ -237,13 +237,15 @@ h1{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius:25px;
     padding:10px;   
+    font-size:22px;
 }
 
 h2{
+    font-size: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius:25px;
-    padding:10px; 
+    padding:15px; 
     
 }
 
@@ -254,6 +256,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.2);
     border-radius:25px;
     padding:10px;
+
 }
 .bird> p{
     opacity: 0.2;
@@ -264,7 +267,7 @@ h2{
 }
 
 .intro > p, .credits >p{
-
+    font-size:14px;
     text-align: center;
     color: rgb(255, 253, 253);
     background-color: rgba(0, 0, 0, .6);
@@ -278,7 +281,7 @@ a{
 }
 
 a:hover {
-        color: white;
+        color: rgb(236, 189, 255);
 }
 
 .b1{
@@ -344,16 +347,24 @@ a:hover {
  
  .prompt{
     text-align: center;
-    font-size:25px;
+    font-size:20px;
     color: rgb(255, 253, 253);
     background-color: rgba(0, 0, 0, .4);
     border-radius:25px;
     padding:10px;
-     order:21;
+    order:21;
  }
 
  
  .ctap{
      color:#52e875;
      font-weight: bold;
+
  }
+
+.disclaimer{
+    color:#ffffff;
+    font-weight: bold;
+    background: rgba(41, 39, 39, 0.8);
+    border-radius:20px;
+}
