@@ -214,6 +214,8 @@ img:hover {
     min-height: 100vh;
     padding: 30px;
     color: white;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .intro, .credits{
