@@ -204,11 +204,12 @@ img:hover {
 }
 
 .about{
-    background: url(./img/bg-cover-2.jpeg);
+    background-color:rgba(70, 69, 69, .95);
+    /*background: url(./img/bg-cover-2.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment:fixed;
-    background-position: center center;
+    background-position: center center;*/
     height:100%;
     width: 100%;
     display: flex;
