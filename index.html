@@ -124,6 +124,7 @@
                 <h2>
                     Initiative by <a href="http://www.hbcse.tifr.res.in/"> Homi Bhabha Centre for Science Education</a>, <a href="https://www.tifr.res.in/">Tata Institute of Fundamental Research</a>, Mumbai, India
                 </h2>
+                <p>Visits: <span id="visits"></span></p>
 
             </div>
             <div class="credits">
@@ -168,5 +169,11 @@
         </section>
     </div>
  <script src="index.js"></script>
+ <script>
+    function cb(response) {
+        document.getElementById('visits').innerText = response.value;
+    }
+    </script>
+    <script async src="https://api.countapi.xyz/hit/birds.hbcse.tifr.res.in/visits?callback=cb"></script>
 </body>
 </html>
