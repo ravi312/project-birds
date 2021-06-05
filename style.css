@@ -226,6 +226,7 @@ img:hover {
 
 .intro, .credits{
     display:flex;
+  
     flex-wrap: wrap;
     flex: 1;
     align-items: center ;
@@ -380,4 +381,17 @@ a:hover {
     background: rgba(41, 39, 39, 0.8);
     border-radius:10px;
     padding: 2px 2px 2px 2px;
+}
+
+.contact{
+    color:#ffffff;
+    
+    border-radius:10px;
+    padding: 2px 2px 2px 2px;
+    flex: 100%;
+}
+
+.counter{
+    color:#ffffff;
+
 }
