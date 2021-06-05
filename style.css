@@ -359,8 +359,8 @@ a:hover {
  .prompt{
     width:fit-content;
     height: fit-content;
-    text-align: justify;
-    font-size:18px;
+    text-align: center;
+    font-size:16px;
     color: rgb(255, 253, 253);
     background-color: rgba(0, 0, 0, .4);
     border-radius:25px;
@@ -385,7 +385,7 @@ a:hover {
 
 .contact{
     color:#ffffff;
-    
+    text-align: left;
     border-radius:10px;
     padding: 2px 2px 2px 2px;
     flex: 100%;
