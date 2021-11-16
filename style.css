@@ -203,6 +203,62 @@ img:hover {
     transform: scale(1.8);
 }
 
+.b21> img{
+    transform: scale(1.5);
+}
+.b21> img:hover{
+    transform: scale(2);
+}
+
+.b22> img{
+    transform: scale(2);
+}
+.b22> img:hover{
+    transform: scale(2.4);
+}
+
+
+.b23> img{
+    transform: scale(1.2);
+}
+.b23> img:hover{
+    transform: scale(1.8);
+}
+
+
+.b24> img{
+    transform: scale(2);
+}
+.b24> img:hover{
+    transform: scale(3);
+}
+
+
+.b25> img{
+    transform: scale(2.2);
+}
+.b25> img:hover{
+    transform: scale(2.5);
+}
+
+
+.b26> img{
+    transform: scale(1.5);
+}
+.b26> img:hover{
+    transform: scale(2.2);
+}
+
+
+.b27> img{
+    transform: scale(1.2);
+}
+.b27> img:hover{
+    transform: scale(2);
+}
+
+
+
 .about{
     background-color:rgba(70, 69, 69, .95);
     /*background: url(./img/bg-cover-2.jpeg);
@@ -215,7 +271,7 @@ img:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
     justify-content: space-around;
     min-height: 100vh;
     padding: 30px;
@@ -332,7 +388,7 @@ a:hover {
     order:2;
  }
  .b13{
-    order:1;
+    order:28;
  }
  .b14{
     order:7;
@@ -355,7 +411,30 @@ a:hover {
  .b20{
     order:11;
  }
- 
+ .b21{
+    order:21;
+ }
+ .b22{
+    order:22;
+ }
+ .b23{
+    order:21;
+ }
+ .b23{
+    order:23;
+ }
+ .b24{
+    order:24;
+ }
+ .b25{
+    order:25;
+ }
+ .b26{
+    order:26;
+ }
+ .b27{
+    order:27;
+ }
  .prompt{
     width:fit-content;
     height: fit-content;
@@ -365,7 +444,7 @@ a:hover {
     background-color: rgba(0, 0, 0, .4);
     border-radius:25px;
     padding:10px;
-    order:21;
+    order:1;
  }
 
  
@@ -383,7 +462,24 @@ a:hover {
     padding: 2px 2px 2px 2px;
 }
 
+.explore-title{
+    color:#ffffff;
+    font-weight: bold;
+    background: rgba(41, 39, 39, 0.8);
+    border-radius:10px;
+    padding: 2px 2px 2px 2px;
+}
+
 .contact{
+    color:#ffffff;
+    text-align: left;
+    border-radius:10px;
+    padding: 2px 2px 2px 2px;
+    flex: 100%;
+}
+
+
+.explore{
     color:#ffffff;
     text-align: left;
     border-radius:10px;
