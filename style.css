@@ -227,10 +227,10 @@ img:hover {
 
 
 .b24> img{
-    transform: scale(2);
+    transform: scale(1.5);
 }
 .b24> img:hover{
-    transform: scale(3);
+    transform: scale(2.5);
 }
 
 
