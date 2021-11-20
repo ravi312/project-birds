@@ -211,7 +211,7 @@ img:hover {
 }
 
 .b22> img{
-    transform: scale(2);
+    transform: scale(2.2);
 }
 .b22> img:hover{
     transform: scale(2.4);
